@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+           <div class="logo">
+        <img src="photos/Usmon.png" alt="Jigar logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Bosh sahifa</a></li>
+                <li><a href="#about" class="nav-link">Men haqimda</a></li>
+                <li><a href="#skills" class="nav-link">Ko'nikmalar</a></li>
+                <li><a href="#projects" class="nav-link">Proyektlar</a></li>
+                <li><a href="#experience" class="nav-link">Tajriba</a></li>
+                <li><a href="#contact" class="nav-link">Aloqa</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="greeting">Salom, mening ismim Usmon</span>
+                <h1 class="hero-title">Umaraliyev Usmon</h1>
+                <p class="hero-subtitle">Full Stack Developer | Software Engineer</p>
+                <p class="hero-description">
+                    Men professional dasturchi bo'lib, zamonaviy web va Startuplar yarataman. 
+                    Kod yozish mening ehtirosim!
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Proyektlarim</a>
+                    <a href="#contact" class="btn btn-secondary">Bog'lanish</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-animation">
+                    <pre><code>
+<span class="code-keyword">function</span> <span class="code-function">createAmazingThings</span>() {
+    <span class="code-keyword">const</span> skills = [
+        <span class="code-string">'JavaScript'</span>,
+        <span class="code-string">'Python'</span>,
+        <span class="code-string">'React'</span>,
+        <span class="code-string">'Node.js'</span>
+    ];
+    
+    <span class="code-keyword">return</span> skills.<span class="code-function">map</span>(skill => 
+        <span class="code-string">`Coding with ${skill}`</span>
+    );
+}
+                    </code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="arrow-down"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Men Haqimda</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Men tajribali dasturchi bo'lib, turli loyihalar ustida ishlaganman. Mening asosiy yo'nalishim zamonaviy web texnologiyalar va innovatsion yechimlar yaratish.</p>
+                    <p>Har bir loyihaga professional yondashuv va kreativ fikrlash bilan qarashni yaxshi ko'raman. Doimiy o'rganish va rivojlanish mening tamoyilim.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">Yillik tajriba</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Tugallangan proyekt</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">Xursand mijozlar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Ko'nikmalarim</h2>
+            <div class="skills-categories">
+                <!-- Frontend Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">⚛️</div>
+                            <h4>React.js</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%"></div>
+                            </div>
+                            <span class="skill-percent">0%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">📜</div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                            <span class="skill-percent">0%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎨</div>
+                            <h4>HTML/CSS</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 98%"></div>
+                            </div>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">💎</div>
+                            <h4>TypeScript</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                            <span class="skill-percent">0%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Backend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">🟢</div>
+                            <h4>Node.js</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width:4%"></div>
+                            </div>
+                            <span class="skill-percent">4%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🐍</div>
+                            <h4>Python</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 22%"></div>
+                            </div>
+                            <span class="skill-percent">22%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🗄️</div>
+                            <h4>MongoDB</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%"></div>
+                            </div>
+                            <span class="skill-percent">0%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🐘</div>
+                            <h4>PostgreSQL</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 3%"></div>
+                            </div>
+                            <span class="skill-percent">3%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Boshqa Ko'nikmalar</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">🔧</div>
+                            <h4>Git/GitHub</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 30%"></div>
+                            </div>
+                            <span class="skill-percent">30%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🐳</div>
+                            <h4>Docker</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%"></div>
+                            </div>
+                            <span class="skill-percent">0%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">☁️</div>
+                            <h4>AWS/Cloud</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 3%"></div>
+                            </div>
+                            <span class="skill-percent">3%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🔄</div>
+                            <h4>CI/CD</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 5%"></div>
+                            </div>
+                            <span class="skill-percent">5%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Mening Proyektlarim</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ko'rish</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>To'liq funksional onlayn do'kon React va Node.js da yaratilgan</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ko'rish</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>Jamoa uchun vazifalarni boshqarish tizimi</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ko'rish</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Social Media Dashboard</h3>
+                        <p>Analytics va statistika ko'rish uchun dashboard</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Chart.js</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ko'rish</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p>Ob-havo ma'lumotlarini real-time ko'rsatuvchi ilova</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">API</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ko'rish</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Blog Platform</h3>
+                        <p>CMS bilan blog yaratish va boshqarish platformasi</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Prisma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ko'rish</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Generator</h3>
+                        <p>Avtomatik portfolio sayt yaratuvchi tool</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">SQLite</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Ish Tajribam</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - Hozir</span>
+                        <h3>Senior Full Stack Developer</h3>
+                        <h4>Tech Company LLC</h4>
+                        <p>Katta miqyosdagi web ilovalar yaratish, jamoa boshqarish va arxitektura rejalashtirish</p>
+                        <ul class="timeline-list">
+                            <li>Microservices arxitekturasini joriy etish</li>
+                            <li>Team lead sifatida 5 kishilik jamoani boshqarish</li>
+                            <li>Performance optimization va scaling</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020 - 2022</span>
+                        <h3>Full Stack Developer</h3>
+                        <h4>Digital Agency</h4>
+                        <p>Turli mijozlar uchun web va mobil ilovalar yaratish</p>
+                        <ul class="timeline-list">
+                            <li>20+ muvaffaqiyatli proyekt yaratildi</li>
+                            <li>RESTful API va GraphQL bilan ishlash</li>
+                            <li>Frontend va backend integratsiya</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2019 - 2020</span>
+                        <h3>Junior Developer</h3>
+                        <h4>Startup Company</h4>
+                        <p>Frontend development va UI/UX implementatsiya</p>
+                        <ul class="timeline-list">
+                            <li>React.js bilan SPA yaratish</li>
+                            <li>Responsive dizayn yaratish</li>
+                            <li>Team collaboration va Git workflow</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2018 - 2019</span>
+                        <h3>Intern Developer</h3>
+                        <h4>Software House</h4>
+                        <p>Web development asoslarini o'rganish va tajriba to'plash</p>
+                        <ul class="timeline-list">
+                            <li>HTML, CSS, JavaScript asoslari</li>
+                            <li>Backend texnologiyalar bilan tanishish</li>
+                            <li>Kod quality va best practices</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Bog'lanish</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Keling, birgalikda ajoyib narsa yaratalim!</h3>
+                    <p>Loyihangiz bormi yoki shunchaki salomlashmoqchimisiz? Menga xabar yuboring!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:email@example.com">email@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <h4>Telefon</h4>
+                                <a href="tel:+998901234567">+998 90 123 45 67</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Manzil</h4>
+                                <p>Toshkent, O'zbekiston</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Telegram</a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Ismingiz" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email manzilingiz" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Mavzu" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Xabaringiz" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Xabar Yuborish</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ismingiz. Barcha huquqlar himoyalangan.</p>
+            <p>Made with ❤️ and lots of ☕</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        let lastScroll = 0;
+        const navbar = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                navbar.style.background = 'rgba(15, 23, 42, 0.98)';
+                navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.3)';
+            } else {
+                navbar.style.background = 'rgba(15, 23, 42, 0.95)';
+                navbar.style.boxShadow = 'none';
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(30px)';
+            section.style.transition = 'all 0.8s ease';
+            observer.observe(section);
+        });
+
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Here you would typically send the data to a server
+            alert(`Rahmat ${name}! Xabaringiz qabul qilindi. Tez orada javob beramiz!`);
+            
+            // Reset form
+            this.reset();
+        });
+
+        // Typing animation for hero
+        const heroTitle = document.querySelector('.hero-title');
+        const originalText = heroTitle.textContent;
+        heroTitle.textContent = '';
+        
+        let charIndex = 0;
+        function typeWriter() {
+            if (charIndex < originalText.length) {
+                heroTitle.textContent += originalText.charAt(charIndex);
+                charIndex++;
+                setTimeout(typeWriter, 100);
+            }
+        }
+        
+        setTimeout(typeWriter, 500);
+
+        // Skill bars animation
+        const skillBars = document.querySelectorAll('.skill-progress');
+        
+        const skillObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const width = entry.target.style.width;
+                    entry.target.style.width = '0%';
+                    setTimeout(() => {
+                        entry.target.style.transition = 'width 1.5s ease';
+                        entry.target.style.width = width;
+                    }, 200);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        skillBars.forEach(bar => skillObserver.observe(bar));
+    </script>
+</body>
+</html>
